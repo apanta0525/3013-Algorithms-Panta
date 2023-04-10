@@ -10,11 +10,11 @@ different fields based on the user input/choice.
 
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
-|   1   | [main.cpp](https://github.com/apanta0525/3013-Algorithms-Panta/edit/main/Assignments/P01/main.cpp) | Main driver of my DataIndexes assignment. |
-|   2   | [Banner.txt](https://github.com/apanta0525/3013-Algorithms-Panta/edit/main/Assignments/P01/Banner.txt) | My own Banner for P01. |
-|   3   | [random_person_data.json](https://github.com/apanta0525/3013-Algorithms-Panta/edit/main/Assignments/P01/random_person_data.json) | Json file of Personal Details. |
-|   4   | [json.hpp](https://github.com/apanta0525/3013-Algorithms-Panta/edit/main/Assignments/P01//json.hpp) | Header file for the json file. |
-|   5   | [Output.txt](https://github.com/apanta0525/3013-Algorithms-Panta/edit/main/Assignments/P01/output.txt) | Output for the program. |
+|   1   | [main.cpp](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P01/main.cpp) | Main driver of my DataIndexes assignment. |
+|   2   | [Banner.txt](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P01/Banner.txt) | My own Banner for P01. |
+|   3   | [random_person_data.json](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P01/random_person_data.json) | Json file of Personal Details. |
+|   4   | [json.hpp](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P01//json.hpp) | Header file for the json file. |
+|   5   | [Output.txt](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P01/output.txt) | Output for the program. |
 
 
 ### Instructions

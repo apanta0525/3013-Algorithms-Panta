@@ -1,7 +1,7 @@
 ## P02 - AutoComplete in Linear Time
 ### Ashish Panta
 ### Description:
-This project is about loading a singly linked list with dictionary words, then timing how it takes to look them up. Loads all of the words in the linked list. It times how long does it to load all the words into the linked list. It also looks up for words in linked list and time how long it takes. Displays the first ten words found.
+This project is about loading a singly linked list with dictionary words, then timing how it takes to look them up. Loading all of the words from `directory.txt` file and storing in the linked list `linkedlist.cpp`. It also calculate the time to load all the words into the linked list. It also looks up for words in linked list and calculating time how long it takes to search from linked list. Displays the first ten words found.
 
 
 

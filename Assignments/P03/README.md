@@ -4,10 +4,7 @@
 
 This project is about loading all of the data from `dict_w_defs.json` into Trie tree and showing timing how it takes to look them up. It also calculate the time to load all the words into the tree. It also looks up for words in tree and calculating time how long it takes to search from it. Displays the first ten words found.
 
-
 ### Files
-### Files
-
 |   #   | File     | Description                      |
 | :---: | -------- | -------------------------------- |
 |   1   | [banner.txt](https://github.com/apanta0525/3013-Algorithms-Panta/blob/main/Assignments/P03/Banner.txt) | My Banner file. |
@@ -26,7 +23,3 @@ This project is about loading all of the data from `dict_w_defs.json` into Trie 
 ### Example Command
 
 - None for now.
-
-
-
-

@@ -1,0 +1,98 @@
+Select the field you want to search data on:
+0.Id
+1.First Name
+2.Last Name
+3.Address
+4.Email
+5.City
+6.State
+7.Car
+8.Phone number
+9.GPS (Longitude and Latitude)
+10.Exit
+Enter Your Choice:0
+Enter string to be search Data:101
+
+Node count:6
+Compared 473 Nodes.
+Completed search in BST in 22.11 micro sec
+Completed search in Linked List in 518.08 micro sec
+Found String 101 in Hercules
+Details:
+id : 101
+first_name : Hercules
+last_name : Aysik
+email: haysik2s@si.edu
+address: 933 Porter Terrace
+city: Oakland
+state: CA
+latitude: 37.799
+longitude: -122.234
+car: Mitsubishi
+car_model: GTO
+car_color: Violet
+favorite_movie: Camille
+pet: Indian giant squirrel
+job_title: Legal Assistant
+phone_number: (510) 8494657
+stocks: ABR^A, GBNK, MZOR, SEMG, WSO.B, TEL, TSM, 
+
+Select the field you want to search data on:
+0.Id
+1.First Name
+2.Last Name
+3.Address
+4.Email
+5.City
+6.State
+7.Car
+8.Phone number
+9.GPS (Longitude and Latitude)
+10.Exit
+Enter Your Choice:1
+Enter string to be search Data:alex
+
+Node count:4
+Compared 7 Nodes.
+Completed search in BST in 53.49 micro sec
+Completed search in Linked List in 24.21 micro sec
+Found String alex in Alexina
+Details:
+id : 265
+first_name : Alexina
+last_name : Beeching
+email: abeeching7c@thetimes.co.uk
+address: 58571 Green Parkway
+city: Cincinnati
+state: OH
+latitude: 39.1802
+longitude: -84.4204
+car: Dodge
+car_model: Neon
+car_color: Khaki
+favorite_movie: Far from Home
+pet: Feathertail glider
+job_title: Registered Nurse
+phone_number: (513) 2902241
+stocks: RBS^F, CFCO, TGP^A, SGRP, PI, ACNB, GIS, 
+
+Select the field you want to search data on:
+0.Id
+1.First Name
+2.Last Name
+3.Address
+4.Email
+5.City
+6.State
+7.Car
+8.Phone number
+9.GPS (Longitude and Latitude)
+10.Exit
+Enter Your Choice:5
+Enter string to be search Data:Winchita
+
+Node count:13
+Compared 1000 Nodes.
+Completed search in BST in 50.56 micro sec
+Completed search in Linked List in 6781.16 micro sec
+Not Found

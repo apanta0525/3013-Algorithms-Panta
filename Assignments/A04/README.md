@@ -21,13 +21,13 @@ This program implements a class that allows an Array to be used just like an Que
 - None for now.
 
 
-##Strassen’s Matrix Multiplication
+## Strassen’s Matrix Multiplication
 
-###Table of Contents
- `` 1. Problem Statement
+### Table of Contents
+ ` 1. Problem Statement
   2. Strassen’s Submatrix
   3. Pseudocode of Strassen’s multiplication
   4. Complexity
   5. C++ Implementation
   6. Applications
-``
+`

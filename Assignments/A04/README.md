@@ -103,18 +103,17 @@ The time complexity using the Master Theorem.
 Approximately O(n^2.8074) which is better than O(n^3)
 
 ### Pseudocode of Strassen’s multiplication
-``` 
- * Divide matrix A and matrix B in 4 sub-matrices of size N/2 x N/2 as shown in the above diagram.
- * Calculate the 7 matrix multiplications recursively.
- * Compute the submatrices of C.
- * Combine these submatricies into our new matrix C
-````
+
+* Divide matrix A and matrix B in 4 sub-matrices of size N/2 x N/2 as shown in the above diagram.
+* Calculate the 7 matrix multiplications recursively.
+* Compute the submatrices of C.
+* Combine these submatricies into our new matrix C
+
 ### Complexity
-``` 
-  * Worst case time complexity: **Θ(n^2.8074)**
-  * Best case time complexity: **Θ(1)**
-  * Space complexity: **Θ(logn)**
-```
+
+* Worst case time complexity: **Θ(n^2.8074)**
+* Best case time complexity: **Θ(1)**
+* Space complexity: **Θ(logn)**
 
 ### C++ Implementation
 ```ruby
@@ -307,9 +306,10 @@ int main() {
 
 ```
 
-##Applications
+## Applications
+
 Generally, Strassen’s Method is not preferred for practical applications for the following reasons.
-  * The constants used in Strassen’s method are high and for a typical application Naive method works better.
-  * For Sparse matrices, there are better methods especially designed for them.
-  * The submatrices in recursion take extra space.
-  * Because of the limited precision of computer arithmetic on noninteger values, larger errors accumulate in Strassen’s algorithm than in Naive Metho
+* The constants used in Strassen’s method are high and for a typical application Naive method works better.
+* For Sparse matrices, there are better methods especially designed for them.
+* The submatrices in recursion take extra space.
+* Because of the limited precision of computer arithmetic on noninteger values, larger errors accumulate in Strassen’s algorithm than in Naive Metho

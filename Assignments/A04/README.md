@@ -31,3 +31,19 @@ This program implements a class that allows an Array to be used just like an Que
   5. C++ Implementation
   6. Applications
 
+<details>
+
+<summary>### Problem Statement</summary>
+
+### You can add a header
+
+You can add text within a collapsed section. 
+
+You can add an image or a code block, too.
+
+```ruby
+   puts "Hello World"
+```
+
+</details>
+

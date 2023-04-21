@@ -26,12 +26,12 @@ This program implements a class that allows an Array to be used just like an Que
 ### Table of Contents
   1. Problem Statement
   2. Strassen’s Submatrix
-  3. Pseudocode of Strassen’s multiplication
-  4. Complexity
-  5. C++ Implementation
-  6. Applications
+     * Pseudocode of Strassen’s multiplication
+     * Complexity
+     * C++ Implementation
+  3. Applications
 
-### 1. Problem Statement
+### 1. **Problem Statement**
 
 Why Strassen’s matrix algorithm is better than normal matrix multiplication and How to multiply two matrices using Strassen’s matrix multiplication algorithm?
 
@@ -57,7 +57,7 @@ d * h
 ```
 The above strategy is the basic O(N^3) strategy.
   
-Using the Master Theorem with T(n) = 8T(n/2) + O(n^2) we still get a runtime of O(n^3).
+Using the Master Theorem with **T(n) = 8T(n/2) + O(n^2)** we still get a runtime of O(n^3).
 
 But Strassen came up with a solution where we don’t need 8 recursive calls but can be done in only 7 calls and some extra addition and subtraction operations.
 
@@ -79,4 +79,26 @@ Our new matrix C’s new quadrants
   matrix C = |p5+p4-p2+p6    p1+p2   |
              |   p3+p4    p1+p5-p3-p7| 
   ```
+  ### 2. Strassen’s Submatrix
   
+  ```ruby 
+  p5+p4-p2+p6 = (a+d)*(e+h) + d*(g-e) - (a+b)*h + (b-d)*(g+h)
+            = (ae+de+ah+dh) + (dg-de) - (ah+bh) + (bg-dg+bh-dh)
+            = ae+bg
+ p1+p2 = a*(f-h) + (a+b)*h
+       = (af-ah) + (ah+bh)
+       = af+bh
+ p3+p4 = (c+d)*e + d*(g-e)
+       = (ce+de) + (dg-de)
+       = ce+dg 
+ p1+p5-p3-p7 = a*(f-h) + (a+d)*(e+h) - (c+d)*e - (a-c)*(e+f)
+             = (af-ah) + (ae+de+ah+dh) -(ce+de) - (ae-ce+af-cf)
+             = cf+dh
+  ```
+
+The time complexity using the Master Theorem.
+
+** T(n) = 7T(n/2) + O(n^2) = O(n^log(7)) ** runtime.
+
+Approximately O(n^2.8074) which is better than O(n^3)
+

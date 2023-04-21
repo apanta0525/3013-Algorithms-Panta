@@ -19,7 +19,7 @@ This program implements a class that allows an Array to be used just like an Que
 ### Example Command
 
 - None for now.
-------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 ##Strassen’s Matrix Multiplication
 

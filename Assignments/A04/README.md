@@ -31,9 +31,7 @@ This program implements a class that allows an Array to be used just like an Que
   5. C++ Implementation
   6. Applications
 
-<details>
-
-<summary>1. Problem Statement</summary>
+### 1. Problem Statement
 
 Why Strassen’s matrix algorithm is better than normal matrix multiplication and How to multiply two matrices using Strassen’s matrix multiplication algorithm?
 
@@ -82,5 +80,3 @@ Our new matrix C’s new quadrants
              |   p3+p4    p1+p5-p3-p7| 
   ```
   
-</details>
-
